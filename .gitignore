@@ -1,2 +1,4 @@
 .vsix
 mariana-color-theme.json
+venv
+.DS_Store
