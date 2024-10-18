@@ -16,7 +16,7 @@
 		"button.secondaryForeground": "DARK_1",
 		"button.secondaryHoverBackground": "ORANGEc0",
 		"diffEditor.insertedTextBackground": "MINT60",
-		"diffEditor.removedTextBackground": "CORAL60",
+		"diffEditor.removedTextBackground": "RED60",
 		"dropdown.background": "DARK_2",
 		"dropdown.listBackground": "DARK_2",
 		"editor.foreground": "LIGHT_1",
