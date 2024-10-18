@@ -856,24 +856,34 @@
 			}
 		},
 		{
-			"name": "Ruby inherited class",
-			"scope": "entity.other.inherited-class.ruby",
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"name": "Ruby block variable",
-			"scope": "variable.other.block.ruby",
+			"scope": [
+				"variable.other.block.ruby",
+				"variable.other.block.unused.ruby",
+				"constant.other.symbol.hashkey.parameter.function.ruby"
+			],
 			"settings": {
 				"foreground": "ORANGE"
 			}
 		},
 		{
 			"name": "Ruby punctuation",
-			"scope": "punctuation.definition.parameters.ruby",
+			"scope": [
+				"punctuation.definition.parameters.ruby",
+				"punctuation.section.function.ruby",
+				"punctuation.separator.variable.ruby"
+			],
 			"settings": {
-				"foreground": "LIGHT_1"
+				"foreground": "TEAL"
+			}
+		},
+		{
+			"name": "Ruby punctuation :",
+			"scope": [
+				"punctuation.separator.other.ruby"
+			],
+			"settings": {
+				"foreground": "CORAL"
 			}
 		},
 		{
@@ -901,6 +911,7 @@
 				"constant.language.symbol.ruby"
 			],
 			"settings": {
+				"foreground": "PURPLE",
 				"fontStyle": ""
 			}
 		},
@@ -915,8 +926,10 @@
 			}
 		},
 		{
-			"name": "ERB source embedded",
-			"scope": "source.ruby.embedded.erb",
+			"name": "ERB variable embedded",
+			"scope": [
+				"variable.other.readwrite.instance.ruby"
+			],
 			"settings": {
 				"foreground": "LIGHT_1"
 			}
