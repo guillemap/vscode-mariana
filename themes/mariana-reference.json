@@ -207,6 +207,30 @@
 		"titleBar.inactiveForeground": "LIGHT_0",
 		"widget.shadow": "SHADOW"
 	},
+	"semanticTokenColors": {
+	  "namespace": {
+		"foreground": "ORANGE"
+	  },
+	  "class": {
+		"foreground": "ORANGE"
+	  },
+	  "variable": {
+		"foreground": "LIGHT_1"
+	  },
+	  "variable.default_library": {
+		"foreground": "RED",
+		"fontStyle": "italic"
+	  },
+	  "parameter": {
+		"foreground": "LIGHT_1"
+	  },
+	  "method": {
+		"foreground": "LIGHT_1"
+	  },
+	  "enum": {
+		"foreground": "LIGHT_1"
+	  }
+	},
 	"tokenColors": [
 		{
 			"name": "Comment",
