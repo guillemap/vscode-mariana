@@ -57,7 +57,7 @@
 		"editorGutter.modifiedBackground": "ORANGE",
 		"editorGutter.deletedBackground": "RED",
 		"editorRuler.foreground": "MEDIUM_1",
-		"editorIndentGuide.background": "MEDIUM_1",
+		"editorIndentGuide.background1": "MEDIUM_1",
 		"editorOverviewRuler.findMatchForeground": "YELLOW40",
 		"editorOverviewRuler.rangeHighlightForeground": "YELLOW40",
 		"editorOverviewRuler.selectionHighlightForeground": "YELLOW40",
