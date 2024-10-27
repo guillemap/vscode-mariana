@@ -950,9 +950,9 @@
 			}
 		},
 		{
-			"name": "ERB variable embedded",
+			"name": "ERB embedded",
 			"scope": [
-				"variable.other.readwrite.instance.ruby"
+				"source.ruby.embedded.erb"
 			],
 			"settings": {
 				"foreground": "LIGHT_1"
